@@ -101,7 +101,7 @@ const Dashboard = () => {
       {/* Welcome Box */}
       <Card className="shadow-md">
         <CardContent className="py-4">
-          <p className="font-semibold text-base mb-1">
+          <p className="sm:text-xl md:text-2xl font-bold mb-1">
             Welcome, {user?.name || "User"} !
           </p>
           <p className="text-sm text-muted-foreground">Email: {user?.email}</p>
