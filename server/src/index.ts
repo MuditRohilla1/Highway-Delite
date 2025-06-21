@@ -9,7 +9,7 @@ import userRoutes from "./routes/userRoutes"
 
 const app = express();
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://highway-delite-sepia.vercel.app",
     credentials: true,
 }));
 app.use(express.json());
