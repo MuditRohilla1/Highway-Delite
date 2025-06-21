@@ -38,7 +38,7 @@ Highway Delite is a full-stack, mobile-friendly note-taking app that allows user
 git clone https://github.com/your-username/highway-delite.git
 cd highway-delite
 
-## 2. Backend Setup
+### 2. Backend Setup
 cd server
 npm install
 
@@ -52,7 +52,7 @@ GOOGLE_CLIENT_ID=your_google_client_id
 Run the server:
 npm run dev
 
-3. Frontend Setup
+### 3. Frontend Setup
 cd ../client
 npm install
 
@@ -62,7 +62,7 @@ VITE_GOOGLE_CLIENT_ID=your_google_client_id
 
 npm run dev
 
-🚀 Deployment
+### 🚀 Deployment
 Frontend (Vercel)
 
 Connect repo and set VITE_API_BASE_URL, VITE_GOOGLE_CLIENT_ID
