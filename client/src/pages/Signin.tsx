@@ -144,6 +144,14 @@ const SignIn = () => {
                           : "Send OTP"}
                     </Button>
                   </div>
+                  {otpSent && cooldown > 0 ? (
+                    <p className="text-xs text-blue-600">
+                      Check your span if otp is not present in inbox !
+                    </p>
+                  ) : (
+                    <>
+                    </>
+                  )}
                   {errors.email && (
                     <p className="text-sm text-red-500">{errors.email.message}</p>
                   )}

@@ -16,6 +16,8 @@ export const generateAndSendOtp = async (email: string) => {
         html: `<p>Your OTP is <strong>${otp}</strong>. It will expire in 5 minutes.</p>`,
     };
 
+    console.log(otp);
+
     await sgMail.send(msg);
     return true;
 };
